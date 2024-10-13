@@ -1,0 +1,13 @@
+version: '3.8'  # Specify the version
+
+services:  # This should be the root property
+  currency-exchange:  # Your service name
+    container_name: currency-exchange
+#    build: .
+    image: 794038251330.dkr.ecr.eu-central-1.amazonaws.com/currency-exchange:latest
+    restart: always
+    ports:
+      - "8000:8080"
+    environment:
+      # Define your environment variables here
+      SPRING_PROFILES_ACTIVE: prod  # Example environment variable
