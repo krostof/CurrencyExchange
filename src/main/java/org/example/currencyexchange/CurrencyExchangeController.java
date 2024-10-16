@@ -25,7 +25,7 @@ public class CurrencyExchangeController {
         }
 
         try {
-            String result = nbpCurrFetcher.currExchange(amount, sourceCurrency, targetCurrency);
+            String result = nbpCurrFetcher.currExchange(amount, targetCurrency, sourceCurrency);
             return ResponseEntity.ok(new ResponseDto(result));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest().body(new ResponseDto(e.getMessage()));
