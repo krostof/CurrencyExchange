@@ -56,7 +56,7 @@ http://localhost:8080/swagger-ui/index.html#/currency-exchange-controller/getCur
 The application is also available at:
 
 ```
-http://http://ec2-35-157-36-140.eu-central-1.compute.amazonaws.com:8000/swagger-ui/index.html#/currency-exchange-controller/currencyExchange
+http://ec2-35-157-36-140.eu-central-1.compute.amazonaws.com:8000/swagger-ui/index.html#/currency-exchange-controller/currencyExchange
 ```
 
 ##
